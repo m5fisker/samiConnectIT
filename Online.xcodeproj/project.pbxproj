@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2800EFFE1E4B1C2900897A95 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2800EFFD1E4B1C2900897A95 /* DetailTableViewController.swift */; };
+		6C08B8751E68584F003DFB69 /* sap.png in Resources */ = {isa = PBXBuildFile; fileRef = 6C08B8731E68584F003DFB69 /* sap.png */; };
+		6C08B8761E68584F003DFB69 /* StartScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C08B8741E68584F003DFB69 /* StartScreenViewController.swift */; };
+		6C359B741EAF4A5C007F34B6 /* MyPrefixSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C359B681EAF4A5C007F34B6 /* MyPrefixSupplier.swift */; };
+		6C359B751EAF4A5C007F34B6 /* MyPrefixStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C359B691EAF4A5C007F34B6 /* MyPrefixStock.swift */; };
+		6C359B761EAF4A5C007F34B6 /* MyPrefixSalesOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C359B6A1EAF4A5C007F34B6 /* MyPrefixSalesOrderItem.swift */; };
+		6C359B771EAF4A5C007F34B6 /* MyPrefixSalesOrderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C359B6B1EAF4A5C007F34B6 /* MyPrefixSalesOrderHeader.swift */; };
+		6C359B781EAF4A5C007F34B6 /* MyPrefixPurchaseOrderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C359B6C1EAF4A5C007F34B6 /* MyPrefixPurchaseOrderItem.swift */; };
+		6C359B791EAF4A5C007F34B6 /* MyPrefixPurchaseOrderHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C359B6D1EAF4A5C007F34B6 /* MyPrefixPurchaseOrderHeader.swift */; };
+		6C359B7A1EAF4A5C007F34B6 /* MyPrefixProductText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C359B6E1EAF4A5C007F34B6 /* MyPrefixProductText.swift */; };
+		6C359B7B1EAF4A5C007F34B6 /* MyPrefixProductCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C359B6F1EAF4A5C007F34B6 /* MyPrefixProductCategory.swift */; };
+		6C359B7C1EAF4A5C007F34B6 /* MyPrefixProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C359B701EAF4A5C007F34B6 /* MyPrefixProduct.swift */; };
+		6C359B7D1EAF4A5C007F34B6 /* MyPrefixMyServiceClassMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C359B711EAF4A5C007F34B6 /* MyPrefixMyServiceClassMetadata.swift */; };
+		6C359B7E1EAF4A5C007F34B6 /* MyPrefixMyServiceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C359B721EAF4A5C007F34B6 /* MyPrefixMyServiceClass.swift */; };
+		6C359B7F1EAF4A5C007F34B6 /* MyPrefixCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C359B731EAF4A5C007F34B6 /* MyPrefixCustomer.swift */; };
+		6C359B811EAF4AD0007F34B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C359B801EAF4AD0007F34B6 /* Main.storyboard */; };
+		6C371C321DF06FB90063471E /* ODataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C371C311DF06FB90063471E /* ODataModel.swift */; };
+		6C6086AA1DE8405A0082863C /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6086A91DE8405A0082863C /* Authenticator.swift */; };
+		6C6086B01DE842850082863C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6086AF1DE842850082863C /* Constants.swift */; };
+		6C6086B41DE857590082863C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6086B31DE857590082863C /* ViewController.swift */; };
+		6C6CE4781DE44C870062E02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CE4771DE44C870062E02E /* AppDelegate.swift */; };
+		6C6CE4811DE44C870062E02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6CE4801DE44C870062E02E /* Assets.xcassets */; };
+		6C6CE4E21DE452060062E02E /* ViewController+KeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6CE4E11DE452060062E02E /* ViewController+KeyboardNotification.swift */; };
+		6C99A7E01E54760C00742FB3 /* EditableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C99A7DF1E54760C00742FB3 /* EditableCell.swift */; };
+		6C99A7E31E54764D00742FB3 /* SalesOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C99A7E11E54764D00742FB3 /* SalesOrderViewController.swift */; };
+		6C99A7E41E54764D00742FB3 /* SalesOrderItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C99A7E21E54764D00742FB3 /* SalesOrderItemViewController.swift */; };
+		6CB4AF0A1F27288B0006B9C9 /* homecontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4AF091F27288B0006B9C9 /* homecontroller.swift */; };
+		6CB4AF0C1F2737720006B9C9 /* InterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4AF0B1F2737720006B9C9 /* InterestViewController.swift */; };
+		6CB4AF0E1F2749940006B9C9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4AF0D1F2749940006B9C9 /* MapViewController.swift */; };
+		6CB807841E71A80000DF536F /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB807811E71A80000DF536F /* SAPCommon.framework */; };
+		6CB807851E71A80000DF536F /* SAPCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB807811E71A80000DF536F /* SAPCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6CB807861E71A80000DF536F /* SAPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB807821E71A80000DF536F /* SAPFoundation.framework */; };
+		6CB807871E71A80000DF536F /* SAPFoundation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB807821E71A80000DF536F /* SAPFoundation.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6CB807881E71A80000DF536F /* SAPOData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB807831E71A80000DF536F /* SAPOData.framework */; };
+		6CB807891E71A80000DF536F /* SAPOData.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB807831E71A80000DF536F /* SAPOData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6CF8D7031E8E8C0300049D1C /* Notifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CF8D7021E8E8C0300049D1C /* Notifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C6CE48B1DE44C870062E02E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C6CE46C1DE44C860062E02E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C6CE4731DE44C860062E02E;
+			remoteInfo = Online;
+		};
+		6C6CE4961DE44C870062E02E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C6CE46C1DE44C860062E02E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C6CE4731DE44C860062E02E;
+			remoteInfo = Online;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6CB8078A1E71A80000DF536F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6CB807891E71A80000DF536F /* SAPOData.framework in Embed Frameworks */,
+				6CB807871E71A80000DF536F /* SAPFoundation.framework in Embed Frameworks */,
+				6CB807851E71A80000DF536F /* SAPCommon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2800EFFD1E4B1C2900897A95 /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		6C08B8731E68584F003DFB69 /* sap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sap.png; sourceTree = "<group>"; };
+		6C08B8741E68584F003DFB69 /* StartScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreenViewController.swift; sourceTree = "<group>"; };
+		6C359B681EAF4A5C007F34B6 /* MyPrefixSupplier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrefixSupplier.swift; sourceTree = "<group>"; };
+		6C359B691EAF4A5C007F34B6 /* MyPrefixStock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrefixStock.swift; sourceTree = "<group>"; };
+		6C359B6A1EAF4A5C007F34B6 /* MyPrefixSalesOrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrefixSalesOrderItem.swift; sourceTree = "<group>"; };
+		6C359B6B1EAF4A5C007F34B6 /* MyPrefixSalesOrderHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrefixSalesOrderHeader.swift; sourceTree = "<group>"; };
+		6C359B6C1EAF4A5C007F34B6 /* MyPrefixPurchaseOrderItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrefixPurchaseOrderItem.swift; sourceTree = "<group>"; };
+		6C359B6D1EAF4A5C007F34B6 /* MyPrefixPurchaseOrderHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrefixPurchaseOrderHeader.swift; sourceTree = "<group>"; };
+		6C359B6E1EAF4A5C007F34B6 /* MyPrefixProductText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrefixProductText.swift; sourceTree = "<group>"; };
+		6C359B6F1EAF4A5C007F34B6 /* MyPrefixProductCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrefixProductCategory.swift; sourceTree = "<group>"; };
+		6C359B701EAF4A5C007F34B6 /* MyPrefixProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrefixProduct.swift; sourceTree = "<group>"; };
+		6C359B711EAF4A5C007F34B6 /* MyPrefixMyServiceClassMetadata.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrefixMyServiceClassMetadata.swift; sourceTree = "<group>"; };
+		6C359B721EAF4A5C007F34B6 /* MyPrefixMyServiceClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrefixMyServiceClass.swift; sourceTree = "<group>"; };
+		6C359B731EAF4A5C007F34B6 /* MyPrefixCustomer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPrefixCustomer.swift; sourceTree = "<group>"; };
+		6C359B801EAF4AD0007F34B6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6C371C311DF06FB90063471E /* ODataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ODataModel.swift; sourceTree = "<group>"; };
+		6C6086A91DE8405A0082863C /* Authenticator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		6C6086AF1DE842850082863C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6C6086B31DE857590082863C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C6CE4741DE44C870062E02E /* Online.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Online.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6CE4771DE44C870062E02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C6CE4801DE44C870062E02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C6CE4851DE44C870062E02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6CE48A1DE44C870062E02E /* OnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6CE4951DE44C870062E02E /* OnlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnlineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6CE4E11DE452060062E02E /* ViewController+KeyboardNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+KeyboardNotification.swift"; sourceTree = "<group>"; };
+		6C99A7DF1E54760C00742FB3 /* EditableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableCell.swift; sourceTree = "<group>"; };
+		6C99A7E11E54764D00742FB3 /* SalesOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesOrderViewController.swift; sourceTree = "<group>"; };
+		6C99A7E21E54764D00742FB3 /* SalesOrderItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesOrderItemViewController.swift; sourceTree = "<group>"; };
+		6CB4AF091F27288B0006B9C9 /* homecontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homecontroller.swift; sourceTree = "<group>"; };
+		6CB4AF0B1F2737720006B9C9 /* InterestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestViewController.swift; sourceTree = "<group>"; };
+		6CB4AF0D1F2749940006B9C9 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6CB807811E71A80000DF536F /* SAPCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAPCommon.framework; path = ../SAPCommon.framework; sourceTree = "<group>"; };
+		6CB807821E71A80000DF536F /* SAPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAPFoundation.framework; path = ../SAPFoundation.framework; sourceTree = "<group>"; };
+		6CB807831E71A80000DF536F /* SAPOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAPOData.framework; path = ../SAPOData.framework; sourceTree = "<group>"; };
+		6CF8D7021E8E8C0300049D1C /* Notifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C6CE4711DE44C860062E02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB807881E71A80000DF536F /* SAPOData.framework in Frameworks */,
+				6CB807861E71A80000DF536F /* SAPFoundation.framework in Frameworks */,
+				6CB807841E71A80000DF536F /* SAPCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6CE4871DE44C870062E02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6CE4921DE44C870062E02E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C6086AB1DE8423A0082863C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C08B8731E68584F003DFB69 /* sap.png */,
+				6C08B8741E68584F003DFB69 /* StartScreenViewController.swift */,
+				6CB4AF091F27288B0006B9C9 /* homecontroller.swift */,
+				6C99A7E11E54764D00742FB3 /* SalesOrderViewController.swift */,
+				6C99A7E21E54764D00742FB3 /* SalesOrderItemViewController.swift */,
+				6C99A7DF1E54760C00742FB3 /* EditableCell.swift */,
+				6C6086B31DE857590082863C /* ViewController.swift */,
+				6C6CE4E11DE452060062E02E /* ViewController+KeyboardNotification.swift */,
+				2800EFFD1E4B1C2900897A95 /* DetailTableViewController.swift */,
+				6CB4AF0B1F2737720006B9C9 /* InterestViewController.swift */,
+				6CB4AF0D1F2749940006B9C9 /* MapViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6C6086AC1DE8424F0082863C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6C371C311DF06FB90063471E /* ODataModel.swift */,
+				6C6086AF1DE842850082863C /* Constants.swift */,
+				6C6CE4C41DE451A80062E02E /* Proxy Classes */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6C6CE46B1DE44C860062E02E = {
+			isa = PBXGroup;
+			children = (
+				6C6CE4761DE44C870062E02E /* Online */,
+				6C6CE4751DE44C870062E02E /* Products */,
+				6C6CE4E71DE452890062E02E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C6CE4751DE44C870062E02E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C6CE4741DE44C870062E02E /* Online.app */,
+				6C6CE48A1DE44C870062E02E /* OnlineTests.xctest */,
+				6C6CE4951DE44C870062E02E /* OnlineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C6CE4761DE44C870062E02E /* Online */ = {
+			isa = PBXGroup;
+			children = (
+				6C6CE4771DE44C870062E02E /* AppDelegate.swift */,
+				6C6CE4801DE44C870062E02E /* Assets.xcassets */,
+				6CF8D7011E8E8BEF00049D1C /* Helper */,
+				6C6CE4851DE44C870062E02E /* Info.plist */,
+				6C359B801EAF4AD0007F34B6 /* Main.storyboard */,
+				6C6086AC1DE8424F0082863C /* Model */,
+				6C6086AB1DE8423A0082863C /* View */,
+			);
+			path = Online;
+			sourceTree = "<group>";
+		};
+		6C6CE4C41DE451A80062E02E /* Proxy Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C6CE4C51DE451A80062E02E /* com.sap.mit.online */,
+			);
+			path = "Proxy Classes";
+			sourceTree = "<group>";
+		};
+		6C6CE4C51DE451A80062E02E /* com.sap.mit.online */ = {
+			isa = PBXGroup;
+			children = (
+				6C6CE4C61DE451A80062E02E /* public */,
+			);
+			path = com.sap.mit.online;
+			sourceTree = "<group>";
+		};
+		6C6CE4C61DE451A80062E02E /* public */ = {
+			isa = PBXGroup;
+			children = (
+				6C359B681EAF4A5C007F34B6 /* MyPrefixSupplier.swift */,
+				6C359B691EAF4A5C007F34B6 /* MyPrefixStock.swift */,
+				6C359B6A1EAF4A5C007F34B6 /* MyPrefixSalesOrderItem.swift */,
+				6C359B6B1EAF4A5C007F34B6 /* MyPrefixSalesOrderHeader.swift */,
+				6C359B6C1EAF4A5C007F34B6 /* MyPrefixPurchaseOrderItem.swift */,
+				6C359B6D1EAF4A5C007F34B6 /* MyPrefixPurchaseOrderHeader.swift */,
+				6C359B6E1EAF4A5C007F34B6 /* MyPrefixProductText.swift */,
+				6C359B6F1EAF4A5C007F34B6 /* MyPrefixProductCategory.swift */,
+				6C359B701EAF4A5C007F34B6 /* MyPrefixProduct.swift */,
+				6C359B711EAF4A5C007F34B6 /* MyPrefixMyServiceClassMetadata.swift */,
+				6C359B721EAF4A5C007F34B6 /* MyPrefixMyServiceClass.swift */,
+				6C359B731EAF4A5C007F34B6 /* MyPrefixCustomer.swift */,
+			);
+			path = public;
+			sourceTree = "<group>";
+		};
+		6C6CE4E71DE452890062E02E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CB807811E71A80000DF536F /* SAPCommon.framework */,
+				6CB807821E71A80000DF536F /* SAPFoundation.framework */,
+				6CB807831E71A80000DF536F /* SAPOData.framework */,
+			);
+			name = Frameworks;
+			path = Online;
+			sourceTree = "<group>";
+		};
+		6CF8D7011E8E8BEF00049D1C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6C6086A91DE8405A0082863C /* Authenticator.swift */,
+				6CF8D7021E8E8C0300049D1C /* Notifier.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C6CE4731DE44C860062E02E /* Online */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6CE49E1DE44C870062E02E /* Build configuration list for PBXNativeTarget "Online" */;
+			buildPhases = (
+				6C6CE4701DE44C860062E02E /* Sources */,
+				6C6CE4711DE44C860062E02E /* Frameworks */,
+				6C6CE4721DE44C860062E02E /* Resources */,
+				6CB8078A1E71A80000DF536F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Online;
+			productName = Online;
+			productReference = 6C6CE4741DE44C870062E02E /* Online.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C6CE4891DE44C870062E02E /* OnlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6CE4A11DE44C870062E02E /* Build configuration list for PBXNativeTarget "OnlineTests" */;
+			buildPhases = (
+				6C6CE4861DE44C870062E02E /* Sources */,
+				6C6CE4871DE44C870062E02E /* Frameworks */,
+				6C6CE4881DE44C870062E02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C6CE48C1DE44C870062E02E /* PBXTargetDependency */,
+			);
+			name = OnlineTests;
+			productName = OnlineTests;
+			productReference = 6C6CE48A1DE44C870062E02E /* OnlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C6CE4941DE44C870062E02E /* OnlineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C6CE4A41DE44C870062E02E /* Build configuration list for PBXNativeTarget "OnlineUITests" */;
+			buildPhases = (
+				6C6CE4911DE44C870062E02E /* Sources */,
+				6C6CE4921DE44C870062E02E /* Frameworks */,
+				6C6CE4931DE44C870062E02E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C6CE4971DE44C870062E02E /* PBXTargetDependency */,
+			);
+			name = OnlineUITests;
+			productName = OnlineUITests;
+			productReference = 6C6CE4951DE44C870062E02E /* OnlineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C6CE46C1DE44C860062E02E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SAP;
+				TargetAttributes = {
+					6C6CE4731DE44C860062E02E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					6C6CE4891DE44C870062E02E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C6CE4731DE44C860062E02E;
+					};
+					6C6CE4941DE44C870062E02E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C6CE4731DE44C860062E02E;
+					};
+				};
+			};
+			buildConfigurationList = 6C6CE46F1DE44C860062E02E /* Build configuration list for PBXProject "Online" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C6CE46B1DE44C860062E02E;
+			productRefGroup = 6C6CE4751DE44C870062E02E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C6CE4731DE44C860062E02E /* Online */,
+				6C6CE4891DE44C870062E02E /* OnlineTests */,
+				6C6CE4941DE44C870062E02E /* OnlineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C6CE4721DE44C860062E02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C359B811EAF4AD0007F34B6 /* Main.storyboard in Resources */,
+				6C6CE4811DE44C870062E02E /* Assets.xcassets in Resources */,
+				6C08B8751E68584F003DFB69 /* sap.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6CE4881DE44C870062E02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6CE4931DE44C870062E02E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C6CE4701DE44C860062E02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CB4AF0A1F27288B0006B9C9 /* homecontroller.swift in Sources */,
+				6CF8D7031E8E8C0300049D1C /* Notifier.swift in Sources */,
+				6C6CE4781DE44C870062E02E /* AppDelegate.swift in Sources */,
+				6C371C321DF06FB90063471E /* ODataModel.swift in Sources */,
+				6C99A7E01E54760C00742FB3 /* EditableCell.swift in Sources */,
+				6C6086B01DE842850082863C /* Constants.swift in Sources */,
+				6C359B7C1EAF4A5C007F34B6 /* MyPrefixProduct.swift in Sources */,
+				6C08B8761E68584F003DFB69 /* StartScreenViewController.swift in Sources */,
+				6C359B7A1EAF4A5C007F34B6 /* MyPrefixProductText.swift in Sources */,
+				6C359B7B1EAF4A5C007F34B6 /* MyPrefixProductCategory.swift in Sources */,
+				6C99A7E41E54764D00742FB3 /* SalesOrderItemViewController.swift in Sources */,
+				6C6086B41DE857590082863C /* ViewController.swift in Sources */,
+				6C359B751EAF4A5C007F34B6 /* MyPrefixStock.swift in Sources */,
+				6C6CE4E21DE452060062E02E /* ViewController+KeyboardNotification.swift in Sources */,
+				6C359B7D1EAF4A5C007F34B6 /* MyPrefixMyServiceClassMetadata.swift in Sources */,
+				6C359B781EAF4A5C007F34B6 /* MyPrefixPurchaseOrderItem.swift in Sources */,
+				6C359B771EAF4A5C007F34B6 /* MyPrefixSalesOrderHeader.swift in Sources */,
+				6C359B741EAF4A5C007F34B6 /* MyPrefixSupplier.swift in Sources */,
+				6C359B7E1EAF4A5C007F34B6 /* MyPrefixMyServiceClass.swift in Sources */,
+				6C359B761EAF4A5C007F34B6 /* MyPrefixSalesOrderItem.swift in Sources */,
+				2800EFFE1E4B1C2900897A95 /* DetailTableViewController.swift in Sources */,
+				6C99A7E31E54764D00742FB3 /* SalesOrderViewController.swift in Sources */,
+				6CB4AF0E1F2749940006B9C9 /* MapViewController.swift in Sources */,
+				6CB4AF0C1F2737720006B9C9 /* InterestViewController.swift in Sources */,
+				6C359B791EAF4A5C007F34B6 /* MyPrefixPurchaseOrderHeader.swift in Sources */,
+				6C6086AA1DE8405A0082863C /* Authenticator.swift in Sources */,
+				6C359B7F1EAF4A5C007F34B6 /* MyPrefixCustomer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6CE4861DE44C870062E02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C6CE4911DE44C870062E02E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C6CE48C1DE44C870062E02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C6CE4731DE44C860062E02E /* Online */;
+			targetProxy = 6C6CE48B1DE44C870062E02E /* PBXContainerItemProxy */;
+		};
+		6C6CE4971DE44C870062E02E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C6CE4731DE44C860062E02E /* Online */;
+			targetProxy = 6C6CE4961DE44C870062E02E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C6CE49C1DE44C870062E02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C6CE49D1DE44C870062E02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C6CE49F1DE44C870062E02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Online/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.mit.native.basic.online;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6C6CE4A01DE44C870062E02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Online/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.mit.native.basic.online;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6C6CE4A21DE44C870062E02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.OnlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Online.app/Online";
+			};
+			name = Debug;
+		};
+		6C6CE4A31DE44C870062E02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OnlineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.OnlineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Online.app/Online";
+			};
+			name = Release;
+		};
+		6C6CE4A51DE44C870062E02E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OnlineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.OnlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Online;
+			};
+			name = Debug;
+		};
+		6C6CE4A61DE44C870062E02E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = OnlineUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.OnlineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Online;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C6CE46F1DE44C860062E02E /* Build configuration list for PBXProject "Online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6CE49C1DE44C870062E02E /* Debug */,
+				6C6CE49D1DE44C870062E02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6CE49E1DE44C870062E02E /* Build configuration list for PBXNativeTarget "Online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6CE49F1DE44C870062E02E /* Debug */,
+				6C6CE4A01DE44C870062E02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6CE4A11DE44C870062E02E /* Build configuration list for PBXNativeTarget "OnlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6CE4A21DE44C870062E02E /* Debug */,
+				6C6CE4A31DE44C870062E02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C6CE4A41DE44C870062E02E /* Build configuration list for PBXNativeTarget "OnlineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C6CE4A51DE44C870062E02E /* Debug */,
+				6C6CE4A61DE44C870062E02E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C6CE46C1DE44C860062E02E /* Project object */;
+}
