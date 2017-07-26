@@ -36,6 +36,8 @@
 		6CB4AF0A1F27288B0006B9C9 /* homecontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4AF091F27288B0006B9C9 /* homecontroller.swift */; };
 		6CB4AF0C1F2737720006B9C9 /* InterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4AF0B1F2737720006B9C9 /* InterestViewController.swift */; };
 		6CB4AF0E1F2749940006B9C9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4AF0D1F2749940006B9C9 /* MapViewController.swift */; };
+		6CB4AF101F274F830006B9C9 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4AF0F1F274F830006B9C9 /* QRViewController.swift */; };
+		6CB4AF121F2758C20006B9C9 /* regViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4AF111F2758C20006B9C9 /* regViewController.swift */; };
 		6CB807841E71A80000DF536F /* SAPCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB807811E71A80000DF536F /* SAPCommon.framework */; };
 		6CB807851E71A80000DF536F /* SAPCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB807811E71A80000DF536F /* SAPCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6CB807861E71A80000DF536F /* SAPFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CB807821E71A80000DF536F /* SAPFoundation.framework */; };
@@ -112,6 +114,8 @@
 		6CB4AF091F27288B0006B9C9 /* homecontroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homecontroller.swift; sourceTree = "<group>"; };
 		6CB4AF0B1F2737720006B9C9 /* InterestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestViewController.swift; sourceTree = "<group>"; };
 		6CB4AF0D1F2749940006B9C9 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6CB4AF0F1F274F830006B9C9 /* QRViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		6CB4AF111F2758C20006B9C9 /* regViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = regViewController.swift; sourceTree = "<group>"; };
 		6CB807811E71A80000DF536F /* SAPCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAPCommon.framework; path = ../SAPCommon.framework; sourceTree = "<group>"; };
 		6CB807821E71A80000DF536F /* SAPFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAPFoundation.framework; path = ../SAPFoundation.framework; sourceTree = "<group>"; };
 		6CB807831E71A80000DF536F /* SAPOData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SAPOData.framework; path = ../SAPOData.framework; sourceTree = "<group>"; };
@@ -160,6 +164,8 @@
 				2800EFFD1E4B1C2900897A95 /* DetailTableViewController.swift */,
 				6CB4AF0B1F2737720006B9C9 /* InterestViewController.swift */,
 				6CB4AF0D1F2749940006B9C9 /* MapViewController.swift */,
+				6CB4AF0F1F274F830006B9C9 /* QRViewController.swift */,
+				6CB4AF111F2758C20006B9C9 /* regViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -331,6 +337,7 @@
 				TargetAttributes = {
 					6C6CE4731DE44C860062E02E = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V2Z5AM9PUL;
 						ProvisioningStyle = Automatic;
 					};
 					6C6CE4891DE44C870062E02E = {
@@ -400,6 +407,7 @@
 				6CB4AF0A1F27288B0006B9C9 /* homecontroller.swift in Sources */,
 				6CF8D7031E8E8C0300049D1C /* Notifier.swift in Sources */,
 				6C6CE4781DE44C870062E02E /* AppDelegate.swift in Sources */,
+				6CB4AF101F274F830006B9C9 /* QRViewController.swift in Sources */,
 				6C371C321DF06FB90063471E /* ODataModel.swift in Sources */,
 				6C99A7E01E54760C00742FB3 /* EditableCell.swift in Sources */,
 				6C6086B01DE842850082863C /* Constants.swift in Sources */,
@@ -424,6 +432,7 @@
 				6C359B791EAF4A5C007F34B6 /* MyPrefixPurchaseOrderHeader.swift in Sources */,
 				6C6086AA1DE8405A0082863C /* Authenticator.swift in Sources */,
 				6C359B7F1EAF4A5C007F34B6 /* MyPrefixCustomer.swift in Sources */,
+				6CB4AF121F2758C20006B9C9 /* regViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,13 +563,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2Z5AM9PUL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Online/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sap.mit.native.basic.online;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.mit.native.basic.onlinee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -570,13 +580,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V2Z5AM9PUL;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Online/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sap.mit.native.basic.online;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sap.mit.native.basic.onlinee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

@@ -26,6 +26,7 @@ class StartScreenViewController: UIViewController, SAPURLSessionDelegate {
     var urlSession: SAPURLSession? {
         didSet {
             oDataModel = ODataModel(urlSession: urlSession!)
+            ODataModel.oDataModel = oDataModel
         }
     }
 

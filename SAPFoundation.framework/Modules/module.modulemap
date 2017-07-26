@@ -8,6 +8,7 @@ framework module SAPFoundation {
     header "FMResultSet.h"
     header "FMResultSet.h"
     header "OpenSSLHelperProxy.h"
+    header "ObjcExceptionHelper.h"
     
     export *
     module * { export * }

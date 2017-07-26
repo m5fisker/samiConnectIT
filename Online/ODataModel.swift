@@ -13,6 +13,8 @@ class ODataModel {
     /// create a Odata Online Provider
     private let espmOdataService: MyPrefixMyServiceClass<OnlineODataProvider>
     
+    public static var oDataModel: ODataModel?
+    
     /// initialise the data service provider for online OData.
     init(urlSession: SAPURLSession) {
         let odataProvider = OnlineODataProvider(serviceName: "myServiceName", serviceRoot: Authenticator.Constants.appURL)
@@ -30,7 +32,16 @@ class ODataModel {
 
     }
     
-    
+    public func createCustomer(customer: MyPrefixCustomer, completion: @escaping (Error?) -> Void) {
+        espmOdataService.createEntity(customer) { error in
+            if let error = error {
+                completion(error)
+                return
+            }
+            
+            completion(nil)
+        }
+    }
     
     /// loads all sales orders and their items
     ///
