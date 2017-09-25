@@ -138,6 +138,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled-1-1" translatesAutoresizingMaskIntoConstraints="NO" id="HOi-Du-Tsb">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ticket Sign-Up" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ioL-gh-9he">
                                 <rect key="frame" x="26" y="90.5" width="181" height="31.5"/>
                                 <fontDescription key="fontDescription" name=".SFNSDisplay" family=".SF NS Display" pointSize="27"/>
@@ -292,6 +296,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled-1-1" translatesAutoresizingMaskIntoConstraints="NO" id="O6P-m2-Kss">
+                                <rect key="frame" x="0.0" y="64" width="375" height="559"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rwd-00-xzE">
                                 <rect key="frame" x="54" y="170" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -345,7 +353,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VLT-84-SWt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3468" y="281"/>
+            <point key="canvasLocation" x="3468" y="280.20989505247377"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2n8-XR-paF">
@@ -460,7 +468,7 @@
             </objects>
             <point key="canvasLocation" x="6981.6000000000004" y="622.93853073463276"/>
         </scene>
-        <!--home-->
+        <!--View Controller-->
         <scene sceneID="Oxc-py-1ZN">
             <objects>
                 <viewController id="fUk-Dn-Ktg" sceneMemberID="viewController">
@@ -590,7 +598,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="home" image="Home_D" selectedImage="icons8-Home-50" id="tea-uB-W8c">
+                    <tabBarItem key="tabBarItem" title="" image="Home_D" selectedImage="icons8-Home-50" id="tea-uB-W8c">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="3"/>
                     </tabBarItem>
                 </viewController>
