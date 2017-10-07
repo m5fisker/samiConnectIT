@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="u7d-Fz-NCi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="u7d-Fz-NCi">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -113,7 +113,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Twitter"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Dubai_Expo_2020_Logo" translatesAutoresizingMaskIntoConstraints="NO" id="ZV0-mP-Dwy">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ConnectiT" translatesAutoresizingMaskIntoConstraints="NO" id="ZV0-mP-Dwy">
                                 <rect key="frame" x="62" y="106" width="250" height="140"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -138,9 +138,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled-1-1" translatesAutoresizingMaskIntoConstraints="NO" id="HOi-Du-Tsb">
+                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled-1-1" translatesAutoresizingMaskIntoConstraints="NO" id="HOi-Du-Tsb">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="assets" translatesAutoresizingMaskIntoConstraints="NO" id="ghB-VY-LZi">
                                 <rect key="frame" x="-45" y="14" width="470" height="570"/>
@@ -278,11 +277,15 @@
                             <constraint firstItem="STB-So-bgw" firstAttribute="leading" secondItem="bJA-Oc-vxu" secondAttribute="leadingMargin" constant="10" id="Vz6-Po-1Mn"/>
                             <constraint firstItem="ioL-gh-9he" firstAttribute="leading" secondItem="bJA-Oc-vxu" secondAttribute="leadingMargin" constant="10" id="WLQ-lb-JAA"/>
                             <constraint firstItem="7g6-xF-lEJ" firstAttribute="leading" secondItem="bJA-Oc-vxu" secondAttribute="leadingMargin" constant="10" id="bEB-ah-4N0"/>
+                            <constraint firstItem="HOi-Du-Tsb" firstAttribute="top" secondItem="OQc-3Z-FXC" secondAttribute="bottom" id="iTr-rF-dAG"/>
                             <constraint firstItem="79f-BS-CG0" firstAttribute="top" secondItem="mWN-I9-fsK" secondAttribute="bottom" constant="25" id="kKD-b8-kNV"/>
+                            <constraint firstItem="HOi-Du-Tsb" firstAttribute="leading" secondItem="bJA-Oc-vxu" secondAttribute="leading" id="mPG-2c-y4n"/>
                             <constraint firstItem="b6e-tF-hSo" firstAttribute="leading" secondItem="bJA-Oc-vxu" secondAttribute="leadingMargin" constant="10" id="oXy-20-MIA"/>
+                            <constraint firstAttribute="trailing" secondItem="HOi-Du-Tsb" secondAttribute="trailing" id="ojX-BO-Khl"/>
                             <constraint firstItem="mWN-I9-fsK" firstAttribute="top" secondItem="7g6-xF-lEJ" secondAttribute="bottom" constant="25" id="w2a-PW-dbk"/>
                             <constraint firstItem="79f-BS-CG0" firstAttribute="leading" secondItem="bJA-Oc-vxu" secondAttribute="leadingMargin" constant="10" id="wql-Zw-3Ua"/>
                             <constraint firstItem="Mtb-C5-C7C" firstAttribute="top" secondItem="OQc-3Z-FXC" secondAttribute="bottom" constant="15" id="x6O-ds-94w"/>
+                            <constraint firstItem="9HL-KC-cwA" firstAttribute="top" secondItem="HOi-Du-Tsb" secondAttribute="bottom" id="xrJ-QG-ys7"/>
                             <constraint firstItem="60s-S1-Dqe" firstAttribute="top" secondItem="79f-BS-CG0" secondAttribute="bottom" constant="25" id="zpq-rN-J9R"/>
                         </constraints>
                     </view>
@@ -307,9 +310,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Untitled-1-1" translatesAutoresizingMaskIntoConstraints="NO" id="O6P-m2-Kss">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled-1-1" translatesAutoresizingMaskIntoConstraints="NO" id="O6P-m2-Kss">
                                 <rect key="frame" x="0.0" y="64" width="375" height="559"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rwd-00-xzE">
                                 <rect key="frame" x="54" y="170" width="100" height="100"/>
@@ -358,6 +360,12 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="A6V-x0-k9f" firstAttribute="top" secondItem="O6P-m2-Kss" secondAttribute="bottom" id="0Uh-e3-UW7"/>
+                            <constraint firstAttribute="trailing" secondItem="O6P-m2-Kss" secondAttribute="trailing" id="8Wq-Ei-qSr"/>
+                            <constraint firstItem="O6P-m2-Kss" firstAttribute="leading" secondItem="Wa7-qw-HK7" secondAttribute="leading" id="J5P-LG-8au"/>
+                            <constraint firstItem="O6P-m2-Kss" firstAttribute="top" secondItem="VaD-66-iIi" secondAttribute="bottom" id="ddd-bM-zgD"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -624,9 +632,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" selectedImage="icons8-Home-50" id="tea-uB-W8c">
-                        <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="3"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="" image="home-7" selectedImage="home-7" id="tea-uB-W8c"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u88-BS-NnK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -987,9 +993,7 @@
         <scene sceneID="XcS-1y-w0D">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="giL-BP-PEt" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="Calendar_D" selectedImage="Calendar_D" id="W6I-NM-mkp">
-                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="8"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="" image="calendar-7" selectedImage="calendar-7" id="W6I-NM-mkp"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="TIM-3V-z5N">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -1076,9 +1080,7 @@
         <scene sceneID="pc3-LF-6uZ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZAP-zh-szu" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="Map_D" selectedImage="Map_D" id="m2b-90-cBW">
-                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="8"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="" image="pin-map-7" selectedImage="pin-map-7" id="m2b-90-cBW"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="xjL-n6-wyo">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -1097,9 +1099,7 @@
         <scene sceneID="Sqs-iD-kyk">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ehz-7U-sEU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="Barcode_D" selectedImage="Barcode_D" id="uw7-Zp-kp8">
-                        <inset key="imageInsets" minX="0.0" minY="10" maxX="0.0" maxY="0.0"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="" image="barcode-7" selectedImage="barcode-7" id="uw7-Zp-kp8"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hgQ-he-sIl">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -1249,16 +1249,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Barcode_D" width="66" height="48"/>
-        <image name="Calendar_D" width="69" height="72"/>
+        <image name="ConnectiT" width="910" height="304"/>
         <image name="Connections" width="450" height="450"/>
-        <image name="Dubai_Expo_2020_Logo" width="418" height="148"/>
         <image name="Dubai_Expo_2020_Logo (1)" width="418" height="148"/>
         <image name="Events Attended" width="450" height="450"/>
         <image name="Facebook" width="360" height="360"/>
         <image name="FullSizeRender 2" width="750" height="733"/>
         <image name="Levels" width="450" height="450"/>
-        <image name="Map_D" width="75" height="69"/>
         <image name="Renewable" width="200" height="200"/>
         <image name="Stalls Visited" width="450" height="450"/>
         <image name="Ticket" width="360" height="360"/>
@@ -1267,15 +1264,18 @@
         <image name="Untitled-1-1" width="4500" height="8000"/>
         <image name="agriculture" width="300" height="300"/>
         <image name="assets" width="1080" height="1920"/>
+        <image name="barcode-7" width="29" height="30"/>
         <image name="bees" width="1024" height="576"/>
+        <image name="calendar-7" width="30" height="30"/>
+        <image name="home-7" width="30" height="30"/>
         <image name="icons8-Female Profile-50" width="50" height="50"/>
         <image name="icons8-Food" width="50" height="50"/>
-        <image name="icons8-Home-50" width="50" height="50"/>
         <image name="icons8-Microphone" width="50" height="50"/>
         <image name="icons8-Settings-50" width="50" height="50"/>
         <image name="line" width="1600" height="1600"/>
         <image name="media" width="512" height="512"/>
         <image name="next" width="1080" height="1920"/>
+        <image name="pin-map-7" width="30" height="30"/>
         <image name="robot" width="512" height="512"/>
         <image name="sap.png" width="300" height="149"/>
         <image name="square" width="276" height="276"/>
